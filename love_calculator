@@ -1,0 +1,27 @@
+# 🚨 Don't change the code below 👇
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+comb = name1 + name2
+x=comb.lower()
+t = x.count("t")
+r = x.count("r")
+u = x.count("u")
+e = x.count("e")
+comb1= t + r + u + e
+l = x.count("l")
+o = x.count("o")
+v = x.count("v")
+e = x.count("e")
+comb2 = l + o + v + e
+tol = comb1+comb2
+covrt = int(str(comb1)+str(comb2))
+if covrt<10 and covrt >90:
+    print(f"your love score is {covrt},you go togeather like coke and mentos")
+elif covrt>=40 and covrt <=50:
+    print(f"your love score is {covrt},you will be alright")
+else:
+    print(f"your love score is {covrt}")
